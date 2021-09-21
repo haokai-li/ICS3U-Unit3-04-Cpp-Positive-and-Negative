@@ -24,6 +24,7 @@ int main() {
     // output
     std::cout << integer << " is a negative number." << std::endl;
   } else {
+    // output
     std::cout << integer << " is just zero." << std::endl;
   }
 
