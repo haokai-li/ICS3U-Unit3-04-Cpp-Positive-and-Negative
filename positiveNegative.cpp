@@ -3,8 +3,8 @@
 // Created by: Haokai
 // Created on: Sept 2021
 // This Program check that the integer is positive, negative and zero
+
 #include <iostream>
-#include <random>
 
 int main() {
   // This Program check that the integer is positive, negative and zero
