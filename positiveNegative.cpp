@@ -9,23 +9,23 @@
 int main() {
     // This Program check that the integer is positive, negative and zero
 
-    int integer;
+    int userNumber;
 
     // input
     std::cout << "Enter an integer: ";
-    std::cin >> integer;
+    std::cin >> userNumber;
     std::cout << "" << std::endl;
 
     // process
-    if (integer > 0) {
+    if (userNumber > 0) {
         // output
-        std::cout << integer << " is a positive number." << std::endl;
-    } else if (integer < 0) {
+        std::cout << userNumber << " is a positive number." << std::endl;
+    } else if (userNumber < 0) {
         // output
-        std::cout << integer << " is a negative number." << std::endl;
+        std::cout << userNumber << " is a negative number." << std::endl;
     } else {
         // output
-        std::cout << integer << " is just zero." << std::endl;
+        std::cout << userNumber << " is just zero." << std::endl;
     }
 
     std::cout << "\nDone" << std::endl;
